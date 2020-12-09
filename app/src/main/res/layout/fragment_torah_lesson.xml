@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/grey">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:id="@+id/tt"
+        android:layout_margin="15dp"
+        android:weightSum="6"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:text="@string/all_lesson"
+            android:id="@+id/tag_all"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textSize="0.1in"
+            android:background="@drawable/btn_shape"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:text="@string/lesson_created"
+            android:id="@+id/tag_my_owner"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:background="@drawable/btn_shape"
+            android:textSize="0.1in"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:text="@string/lesson_registered"
+            android:id="@+id/tag_my_registers"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:background="@drawable/btn_shape"
+            android:textSize="0.1in"
+            android:textColor="@color/colorPrimary"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hat_rab"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:id="@+id/hat_no_lessons"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_lessons"
+        android:textColor="@color/white"
+        android:textSize="0.14in"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:id="@+id/no_lessons"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_below="@id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/ic_add_circle_black_24dp" />
+</RelativeLayout>
+

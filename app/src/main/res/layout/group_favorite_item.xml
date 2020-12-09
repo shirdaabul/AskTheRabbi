@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="false"
+    app:contentPadding="13dp"
+    app:elevation="8dp"
+    app:cardCornerRadius="6dp"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="group name"
+            android:id="@+id/groupname"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:src="@drawable/ic_star_full_24dp"
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/in_fav_btn" />
+
+</androidx.cardview.widget.CardView>

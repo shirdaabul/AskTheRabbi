@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <color name="colorPrimary">#49BEFF</color>-->
+    <color name="colorPrimary">#F7AB3A</color>
+<!--    tool bar up-->
+    <color name="colorPrimaryDark">#363E44</color>
+<!--    tool bar in app-->
+<!--    <color name="colorAccent">#C9C9C9</color>-->
+    <color name="colorAccent">#5E5E5E</color>
+
+
+    <color name="graylight">#4FFFFFFF</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="colorAcc2">#C5F2F8</color>
+
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="heading">#3797CF</color>
+    <color name="solidcircle">#AAFFFFFF</color>
+    <color name="ciecleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+
+    <color name="gradEndOrange">#FFD793</color>
+    <color name="gradStartOrange">#FF9800</color>
+
+
+    <color name="grey">#E5E5E5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="dark_orange">#F16E3A</color>
+    <color name="black">#000</color>
+    <color name="dark_grey">#CC7A7A7A</color>
+    <color name="orangeLight">#F5BF82</color>
+
+    <color name="orangeLightBG">#4DECB980</color>
+
+
+
+</resources>

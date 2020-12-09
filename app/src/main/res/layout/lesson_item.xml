@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentPadding="8dp"
+    android:elevation="15dp"
+    android:padding="50dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/card_view_coach">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/rabbiTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="@string/torah_lesson_with"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="0.13in" />
+
+                <TextView
+                    android:id="@+id/rabbi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="torah"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="0.13in" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:textStyle="bold"
+                    android:text="@string/subject"
+                    android:textColor="#000"
+                    android:textSize="0.14in" />
+
+
+                <TextView
+                    android:id="@+id/subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="@string/subject"
+                    android:textColor="#000"
+                    android:textSize="0.14in" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:textStyle="bold"
+                    android:text="@string/location"
+                    android:textColor="#000"
+                    android:textSize="0.14in" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="@string/location"
+                    android:textColor="#000"
+                    android:textSize="0.14in" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="@string/number_participants"
+                    android:textColor="#000"
+                    android:textSize="0.14in"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/current_praticipants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="current"
+                    android:textColor="#000"
+                    android:textSize="0.14in" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="/"
+                    android:textColor="#000"
+                    android:textSize="0.14in" />
+
+                <TextView
+                    android:id="@+id/max_praticipants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="max"
+                    android:textColor="#000"
+                    android:textSize="0.14in" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="7dp"
+                        android:text="@string/date"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="0.14in" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="7dp"
+                        android:text="|"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="0.14in"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="7dp"
+                        android:text="@string/time"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="0.14in" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <ImageButton
+                    android:id="@+id/lesson_chat_bt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_chat"
+                    android:background="@null"/>
+
+                <Button
+                    android:id="@+id/lesson_register_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/btn_shape"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/register"
+                    android:textSize="0.1in"/>
+                <Button
+                    android:id="@+id/lesson_Unsubscribe_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:padding="4dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/btn_shape"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/Unsubscribe"
+                    android:textSize="0.1in"/>
+
+                <TextView
+                    android:id="@+id/lesson_Edit_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/press_to_edit"
+                    android:textSize="0.14in"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/lesson_delete_bt"
+                    android:layout_below="@id/lesson_Edit_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"
+                    android:textSize="0.14in"
+                    android:text="@string/slide_to_delete" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+

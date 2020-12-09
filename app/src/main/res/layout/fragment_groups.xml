@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_layout"
+        android:background="@color/orangeLight"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:weightSum="6">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.3"
+            android:hint="@string/search"
+            android:id="@+id/search_groups"
+            android:drawableStart="@drawable/ic_search_black_24dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/search_bg"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:background="@drawable/search_bg"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_filter_list_black_24dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:id="@+id/filter_bt"
+            android:text="@string/filter"
+            android:textSize="0.09in"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_layout"
+        android:id="@+id/fav_lin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/favorite"
+            android:drawableStart="@drawable/ic_star_full_24dp"
+            android:drawablePadding="6dp"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@color/orangeLight"/>
+
+        <View android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="2dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview_fav" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fav_lin"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all_groups"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:padding="3dp"
+            android:id="@+id/group_name_tv"
+            android:background="@color/orangeLight"/>
+
+
+        <View android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="2dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recyclerview_groups" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

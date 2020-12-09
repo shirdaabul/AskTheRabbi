@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">שאל את הרב</string>
+    <string name="choose_how_continue">בחר איך להמשיך</string>
+    <string name="welcome">ברוך הבא</string>
+    <string name="login">התחבר</string>
+    <string name="guest">אורח</string>
+    <string name="register">הרשמה</string>
+    <string name="create_new_account">צור משתמש חדש</string>
+    <string name="email_st">אימייל</string>
+    <string name="password_st">סיסמא</string>
+    <string name="username_st">שם משתמש</string>
+    <string name="confirm_password_st">אימות סיסמא</string>
+    <string name="resetPass">אפס סיסמא</string>
+    <string name="your_email">האימייל שלך</string>
+    <string name="resetPasswordSt">ברגע שתלחץ על \'אפס סיסמה\', אתה תקבל מייל על מנת לאפס את הסיסמה</string>
+    <string name="all_fileds_are_required">יש למלא את כל התאים</string>
+    <string name="please_checkyoumail">בדוק את האימייל שלך</string>
+    <string name="password_must_be">סיסמא חייבת להכיל לפחות 6 תווים</string>
+    <string name="passwords_not_match">סיסמאות לא תואמות</string>
+    <string name="registered_success">ההרשמה בוצעה</string>
+    <string name="forget_password">שכחת סיסמא?</string>
+    <string name="authentication_failed">נתונים שגויים</string>
+    <string name="logout">התנתק</string>
+    <string name="save">שמור</string>
+    <string name="select_choice">בחר מאיפה להעלות תמונה</string>
+    <string name="from_camera">מהמצלמה</string>
+    <string name="from_gallery">מהגלריה</string>
+    <string name="upload_in_progress">מתבצע תהליך העלאה</string>
+    <string name="uploading_photo">מעלה תמונה</string>
+    <string name="image_sucsses">התמונה הושלמה</string>
+    <string name="failed">נכשל! משהו לא תקין</string>
+    <string name="chat">צאט</string>
+    <string name="groups">קבוצות</string>
+    <string name="users">משתמשים</string>
+    <string name="torhaLesson">שיעורים</string>
+    <string name="change_details_sucsses">הנתונים החדשים נשמרו</string>
+
+    <string name="send_location">שלח מיקום</string>
+    <string name="appropriate_permissions">דרושות הרשאות מתאימות</string>
+
+    <string name="sent_location_mess">שלח/ה מיקום</string>
+    <string name="pdf">קובץ</string>
+    <string name="empty_mess">לא ניתן לשלוח הודעה ריקה</string>
+    <string name="uploading">מעלה</string>
+    <string name="sent_file_mess">שלח/ה קובץ</string>
+    <string name="sent_photo_mess">שלח/ה תמונה</string>
+    <string name="new_message">הודעה חדשה</string>
+    <string name="type_message">הקלד הודעה</string>
+    <string name="seen">נראה</string>
+    <string name="delivered">נשלח</string>
+    <string name="no_message">אין הודעות</string>
+    <string name="no_image_selected">לא נבחרה תמונה</string>
+    <string name="torah_lesson_list">טוען רשימת שיעורי תורה</string>
+    <string name="subject">"נושא: "</string>
+    <string name="torah_lesson_with">שיעור תורה עם:</string>
+    <string name="date">תאריך</string>
+    <string name="time">שעה</string>
+    <string name="location">"מיקום: "</string>
+    <string name="number_participants">"משתתפים: "</string>
+    <string name="search">חיפוש</string>
+
+    //Cities
+    <string name="city1">אופקים</string>
+
+    <string name="city2">אור יהודה</string>
+
+    <string name="city3">אילת</string>
+
+    <string name="city4">אלעד</string>
+
+    <string name="city5">אריאל</string>
+
+    <string name="city6">אשדוד</string>
+
+    <string name="city7">אשקלון</string>
+
+    <string name="city8">באר שבע</string>
+
+    <string name="city9">בית שאן</string>
+
+    <string name="city10">בית שמש</string>
+
+    <string name="city11">ביתר עילית</string>
+
+    <string name="city12">בני ברק</string>
+
+    <string name="city13">בת ים</string>
+
+    <string name="city14">גבעתיים</string>
+
+    <string name="city15">דימונה</string>
+
+    <string name="city16">הוד השרון</string>
+
+    <string name="city17">הרצליה</string>
+
+    <string name="city18">חדרה</string>
+
+    <string name="city19">חולון</string>
+
+    <string name="city20">חיפה</string>
+
+    <string name="city21">טבריה</string>
+
+    <string name="city22">טירה</string>
+
+    <string name="city23">טירת הכרמל</string>
+
+    <string name="city24">יבנה</string>
+
+    <string name="city25">יהוד-מונוסון</string>
+
+    <string name="city26">יקנעם</string>
+
+    <string name="city27">ירושלים</string>
+
+    <string name="city28">כפר סבא</string>
+
+    <string name="city29">כרמיאל</string>
+
+    <string name="city30">לוד</string>
+
+    <string name="city31">מגדל העמק</string>
+
+    <string name="city32">מודיעין</string>
+
+    <string name="city33">מעלה אדומים</string>
+
+    <string name="city34">מעלות תרשיחא</string>
+
+    <string name="city35">נהריה</string>
+
+    <string name="city36">נוף הגליל</string>
+
+    <string name="city37">נס ציונה</string>
+
+    <string name="city38">נצרת</string>
+
+    <string name="city39">נשר</string>
+
+    <string name="city40">נתיבות</string>
+
+    <string name="city41">נתניה</string>
+
+    <string name="city42">עכו</string>
+
+    <string name="city43">עפולה</string>
+
+    <string name="city44">ערד</string>
+
+    <string name="city45">פתח תקוה</string>
+
+    <string name="city46">צפת</string>
+
+    <string name="city47">קרית אונו</string>
+
+    <string name="city48">קרית אתא</string>
+
+    <string name="city49">קרית ביאליק</string>
+
+    <string name="city50">קרית גת</string>
+
+    <string name="city51">קרית ים</string>
+
+    <string name="city52">קרית מוצקין</string>
+
+    <string name="city53">קרית מלאכי</string>
+
+    <string name="city54">קרית שמונה</string>
+
+    <string name="city55">ראש העין</string>
+
+    <string name="city56">ראשון לציון</string>
+
+    <string name="city57">רהט</string>
+
+    <string name="city58">רחובות</string>
+
+    <string name="city59">רמלה</string>
+
+    <string name="city60">רמת גן</string>
+
+    <string name="city61">רמת השרון</string>
+
+    <string name="city62">רעננה</string>
+
+    <string name="city63">שדרות</string>
+
+    <string name="city64">תל אביב</string>
+    <string name="Unsubscribe">בטל הרשמה</string>
+    <string name="Registration_canceled">ההרשמה בוטלה</string>
+    <string name="Registration_done">ההרשמה בוצעה</string>
+    <string name="quotafull">מכסת השיעור מלאה</string>
+    <string name="all_groups">כל הקבוצות</string>
+    <string name="favorite">מועדפים</string>
+    <string name="group_not_added">הקבוצה לא נוספה</string>
+    <string name="no">לא</string>
+    <string name="yes">כן</string>
+    <string name="Prayer_blessings">תפילות וברכות</string>
+    <string name="cosher">כשרות</string>
+    <string name="faith">אמונה</string>
+    <string name="holiday_shabat">חגים ושבת</string>
+    <string name="marriage_family">נישואים ומשפחה</string>
+    <string name="mourning">אבלות</string>
+    <string name="torah">תורה</string>
+    <string name="delete">"למחוק "</string>
+    <string name="from_fav_group">" מרשימת מועדפים?"</string>
+    <string name="group_to_fav">" קבוצה למועדפים?"</string>
+    <string name="sure_add">"בטוח שברצונך להוסיף את "</string>
+    <string name="skip">דלג</string>
+    <string name="done">סיימתי</string>
+
+
+    <string name="ask_ques">שאל שאלות הלכתיות וקבל מענה לשאלותיך</string>
+    <string name="you_can">תוכל לקבוע שיעורי תורה ולהצטרף לשיעורים אחרים</string>
+    <string name="build_profile_join">בנה פרופיל על מנת להצטרך אלינו</string>
+    <string name="build_profile">בנה פרופיל</string>
+    <string name="regist_to_add_to_fav">הרשם בשביל להוסיף למועדפים</string>
+    <string name="regist_to_start_chat">הרשם כדי לפתוח צאט</string>
+    <string name="slide_to_delete">החלק כדי למחוק שיעור</string>
+    <string name="press_to_edit">לחץ כדי לערוך שיעור</string>
+    <string name="add_new_lesson">הוספת שיעור חדש</string>
+    <string name="edit_lesson">ערוך שיעור</string>
+    <string name="lesson_location">מיקום</string>
+    <string name="lesson_participants">מספר משתתפים</string>
+    <string name="lesson_rabbi_name">שם הרב</string>
+    <string name="lesson_topic">נושא השיעור</string>
+    <string name="post">פרסם</string>
+    <string name="cancle">ביטול</string>
+    <string name="lesson_added">השיעור נוסף לרשימה</string>
+    <string name="save_changes">שמור שינויים</string>
+    <string name="sure_delete_lesson">האם אתה בטוח שברצונך למחוק את השיעור?</string>
+    <string name="lesson_deleted">השיעור נמחק</string>
+    <string name="lesson_update">השיעור עודכן</string>
+    <string name="Regist_add_lesson">הרשם כדי להוסיף שיעור</string>
+    <string name="register_to_display">הרשם כדי להציג את השיעורים שלך</string>
+    <string name="register_to_registeLesoon">הרשם כדי להצטרף לשיעור</string>
+    <string name="all_groups_torah">כל הקבוצות- תורה</string>
+    <string name="all_groups_prayer_blassing">כל הקבוצות- תפילות וברכות</string>
+    <string name="all_groups_cosher">כל הקבוצות- כשרות</string>
+    <string name="all_groups_faite">כל הקבוצות- אמונה</string>
+    <string name="all_groups_holidayShabat">כל הקבוצות- חגים ושבת</string>
+    <string name="all_groups_marrigeFamily">כל הקבוצות- נישואין ומשפחה</string>
+    <string name="all_groups_mouring">כל הקבוצות- אבלות</string>
+    <string name="filter">סנן</string>
+    <string name="choose_category">בחר קטגוריה</string>
+    <string name="all_lesson">כל השיעורים</string>
+    <string name="lesson_created">שיעורים שיצרתי</string>
+    <string name="lesson_registered">שיעורים שנרשמתי</string>
+    <string name="back">חזור</string>
+    <string name="no_lessons_registered">לא קיימים שיעורים שנרשמת</string>
+    <string name="no_lessons_created">לא קיימים שיעורים שיצרת</string>
+    <string name="to_start_chats">כדי לנהל שיחה ולשאול שאלות</string>
+    <string name="no_chats">אין שיחות</string>
+    <string name="no_lessons">אין שיעורים</string>
+    <string name="connect_us">התחבר אלינו</string>
+
+</resources>

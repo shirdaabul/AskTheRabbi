@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "425169584670",
+    "firebase_url": "https://asktherabbi-ce1b8.firebaseio.com",
+    "project_id": "asktherabbi-ce1b8",
+    "storage_bucket": "asktherabbi-ce1b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425169584670:android:931ecfdf890aa0ed04240f",
+        "android_client_info": {
+          "package_name": "com.example.asktherabbi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425169584670-5gv67fffbvvvv5nv1b0na2oqo3vsgojp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asktherabbi",
+            "certificate_hash": "b43b06d938b1c3edf9a9db098ff04c09fcef9363"
+          }
+        },
+        {
+          "client_id": "425169584670-qi6uvrcjmjml4gst21kacrcpn8estjn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmaaWBVuZno1_uakCoLHAexKOgEdslT7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425169584670-qi6uvrcjmjml4gst21kacrcpn8estjn3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
